@@ -4,6 +4,16 @@ body {
     font-size:16px;
 }
 
+.hidden {
+    position: absolute;
+    left:-10000px;
+    top: auto;
+}
+
+.hidden:focus {
+    left:0px;
+}
+
 header {
     background-color: rgb(44 154 183);
     padding: 2.8rem 10rem;
