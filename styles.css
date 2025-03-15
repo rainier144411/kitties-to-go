@@ -38,7 +38,7 @@ h2 {
 
 .quote {
     font-weight: 200;
-    color: rgb(44 154 183);
+    color: #257F98;
 }
 
 .container {
@@ -55,7 +55,7 @@ aside {
 }
 
 aside a {
-    color: rgb(44 154 183);
+    color: #257F98;
 }
 
 figure {
@@ -79,6 +79,11 @@ footer nav ul {
     display: flex;
     column-gap: 20px;
     font-weight: 700;
+}
+
+footer nav ul a {
+    text-decoration: none;
+    color: white;
 }
 
 .inner-footer {
