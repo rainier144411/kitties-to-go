@@ -148,7 +148,7 @@ footer nav ul a {
     aside {
         display: none;
     }
-    .container, header, .main-nav ul, footer, footer nav, .inner-footer {
+    .container, header, .main-nav ul, footer, footer nav, .inner-footer, .rates-container, .rates-sub-container {
         padding-left: 20px;
         padding-right: 20px;
     }
@@ -157,6 +157,9 @@ footer nav ul a {
     }
     section {
         padding-right: 0;
+    }
+    .rates-sub-container {
+        margin-left:0px;
     }
 }
 
